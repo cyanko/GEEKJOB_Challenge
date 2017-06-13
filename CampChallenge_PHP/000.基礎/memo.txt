@@ -1,0 +1,9 @@
+OS; macOS Sierra
+バージョン10.12.5
+
+Mac Book Air (13-inch, Early 2015)
+プロセッサ 1.6 GHz Intel Core i5
+メモリ 8 GB 1600 MHz DDR3
+起動ディスク Macintosh HD
+グラフィックス Intel HD Graphics 60000 1536 MB
+シリアル番号 C1MSS24J6H3QF
