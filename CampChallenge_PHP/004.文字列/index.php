@@ -5,10 +5,10 @@
  *
  * @package WordPress
  */
-const NAME = 'groove';
-const SIGNAL = "-";
-$word = "gear";
-echo NAME . SIGNAL . $word;
+ const NAME = 'groove';
+ const SIGNAL = "-";
+ $word = "gear";
+ echo NAME . SIGNAL . $word;
 
 
 /**
