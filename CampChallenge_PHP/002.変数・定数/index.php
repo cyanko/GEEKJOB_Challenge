@@ -5,10 +5,18 @@
  *
  * @package WordPress
  */
-$name = '姫野 至廣';
-$age = 28;
-echo "初めまして。私の名前は{$name}です。<br />";
-echo "年齢は{$age}歳です。";
+const BASE = 210;
+$num = 3;
+$tasu = BASE + $num;
+$hiku = BASE - $num;
+$kake = BASE * $num;
+$waru = BASE / $num;
+echo "210 + 3は{$tasu}です。<br />";
+echo "210 - 3は{$hiku}です。<br />";
+echo "210 * 3は{$kake}です。<br />";
+echo "210 / 3は{$waru}です。<br />";
+
+
 /**
  * Tells WordPress to load the WordPress theme and output it.
  *
