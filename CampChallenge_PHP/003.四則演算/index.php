@@ -5,16 +5,11 @@
  *
  * @package WordPress
  */
-const BASE = 210;
-$num = 3;
-$tasu = BASE + $num;
-$hiku = BASE - $num;
-$kake = BASE * $num;
-$waru = BASE / $num;
-echo "210 + 3は{$tasu}です。<br />";
-echo "210 - 3は{$hiku}です。<br />";
-echo "210 * 3は{$kake}です。<br />";
-echo "210 / 3は{$waru}です。<br />";
+const NAME = 'groove';
+const SIGNAL = '-';
+$word = 'gear';
+echo NAME . SIGNAL . $word;
+
 
 
 /**

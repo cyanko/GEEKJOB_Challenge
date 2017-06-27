@@ -5,17 +5,18 @@
 *
 * @package WordPress
 */
-ini_set( 'display_errors', 1 );
 
-$fp = fopen('sample3.txt', 'w');
-// きちんと開けたら
-if ($fp != false) {
-    // ファイルに書き込み
-    fwrite($fp, '姫野至廣です。');
-    // 書いたら、閉じる
-    fclose($fp);
-}
-
+echo $_GET['txtName'];
+// チェックボックスの情報
+echo $_GET['chkTest'];
+// ラジオボタンの情報
+echo $_GET['rdoSample'];
+// ボタンの情報
+echo $_GET['btnTest'];
+// コンボボックス（select）の情報
+echo $_GET['cmbList'];
+// テキストエリアの情報
+echo $_GET['mulText'];
 // * Tells WordPress to load the WordPress theme and output it.
 // *
 //define('WP_USE_THEMES', true);
